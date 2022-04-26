@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1><center>This is my form</center></h1>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" required><br/>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" required><br/>
+    </fieldset>
+    <hr color="red">
+    <fieldset>
+        <legend>Course Lab</legend>
+        <p> Course: <br>
+            <input type="radio" name="course" value="Web Design" checked>Web Design<br>
+            <input type="radio" name="course" value="SQL"> SQL<br>
+            <input type="radio" name="course" value="Programming">Programming<br></p>
+        <p>Career Goal:   <br>
+            <select name="Career Goal:" required>
+                <option value="value1">Value 1</option>
+                <option value="value2" selected>Programmer</option>
+                <option value="value3">Value 3</option>
+                </select></p> 
+                <label>Describe any additional skills you have:</label><br>
+                    <textarea rows="3" cols="40" required></textarea><br>
+                <label for="Email">Email:</label>
+                <input type="Email" id="Email" required placeholder:"abc@example.com" required><br/>        
+        
+    </fieldset>
+    <hr color="red">
+    <p>For how long would you like to work with us<br>
+    <input type="checkbox" name="1 year" value="1 year">1 year<br>
+    <input type="checkbox" name="seasonal work" value="Seasonal work" >Seasonal work<br></p>
+    <button type="entermyinformation" value="entermyinformation">Enter my Information</button>
+    <button type="Resetform" value="Resetform">Reset form</button>
+</body>

@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<head>
+    <title></title>
+    <style>
+        p{
+            font-size: 51;
+            font-family: LI roman;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Registration For Data Science Workshop </center></h1>
+    <fieldset>
+        <legend>Register for Web Designing Workshop</legend>
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" placeholder="write your first name here" required><br/>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" placeholder="write your last name here" required><br/><br>
+        <label for="week">select a week for workshop</label>
+        <input type="week" name="week" id="week" required><br><br>
+        <h1>Time Table of Workshop</h1>
+        <table border="1px">
+            <thead style="text-align: center;">
+                <th>Topic</th>
+                <th>Instructor</th>
+                <th>Timing</th>
+            </thead>
+            <tr>
+                <td><ol type="I" start="51"><li>Statistics</li><li>Linear Algebra</li></ol></td>
+                <td>Jerry</td>
+                <td><label for="time">Monday Time:</label>
+                    <input type="time" name="time" id="time" required></td>
+            </tr>
+            <tr>
+                <td><ul type="circle"><li>Programming</li>
+                    <li>Machne Learning</li></ul></td>
+                <td>Tom</td>
+                <td><label for="month">Select Month and Year</label>
+                    <input type="month" name="month" id="month" required></td>
+            </tr>
+            <tr>
+               <td> <p>Data mining <br>- examining large pre-existing data<br>
+            Data Visualisation<br>- representation of information and data</p></td>
+               <td>Ronaldo</td>
+                <td><label for="time">Thursday Time:</label>
+                    <input type="time" name="time" id="time" required><br><br></td> 
+            </tr>
+        </table>
+        <label class="scroll"><h3>Suggestion:</h3></label>
+            <textarea rows="2" cols="25" placeholder="Type your suggestions here" required></textarea><br>
+            <input type="Submit" value="Submit" />
+    </fieldset>
+</body>

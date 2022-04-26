@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <style>
+        body{background-color: skyblue;}
+        .scroll{overflow: visible;
+        overflow: scroll;}
+    </style>
+</head>
+<body>
+    <h2>Order Confirmation Form</h2>
+    <table>
+        <tr><td>
+    <label for="name">Name:</label></td><td>
+    <input type="text" id="name" required><br/></td></tr>
+    <tr><td><label for="Email">Email:</label></td><td>
+    <input type="Email" id="Email" required placeholder:"abc@example.com" required><br/></td></tr>
+    <tr><td style="text-align: bottom;"><label class="scroll">Comments:</label><td>
+    <textarea rows="10" cols="8" required></textarea></td></tr><br></table>
+    <table border="1px" style="background-color: yellow;box-shadow: inset; border-color:rgb(246, 246, 194)">
+        <tr>
+        <td style="padding-left: 50px;padding-right:50px"> <center>
+            <table border="1px" style="box-shadow: inset; border-color:rgb(246, 246, 194)">
+                <thead>
+                    <th colspan="6">Turnover Table</th>
+                </thead>
+                <tr>
+                    <td>S.no.</td>
+                    <td colspan="2">Type of turnover</td>
+                    <td colspan="3" >Amount</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>1.</td>
+                    <td colspan="2">2.</td>
+                    <td colspan="3" >3.</td>
+                </tr>
+                <tr>
+                    <td  style="text-align: center;">(i)</td>
+                    <td colspan="2">Taxable</td>
+                    <td colspan="3" >7</td>
+                </tr>
+                <tr>
+                    <td  style="text-align: center;">(iii)</td>
+                    <td rowspan="2">nill rated</td>
+                    <td rowspan="2">exempted</td>
+                    <td colspan="3" >0</td>
+                </tr>
+                <tr>
+                    <td  style="text-align: center;">(iv)</td>
+                    <td>nill</td>
+                    <td>nill</td>
+                    <td>nill</td>
+                </tr>
+            </table>
+           </center>
+        </td>
+        <td style="padding-right:70px"> <center>
+            <ol start="4">
+                <li>Helle from Webcode</li>
+                <li>Nice List!</li>
+                <li>Another Item
+                    <ol type="a" ; start="3">
+                        <li>sub item list</li>
+                        <li>sub <strike>item list</strike></li>
+                        <ul>
+                            <li>subtopic 1</li>
+                            <li>subtopic 2</li>
+                        </ul>
+                        <li>sub list item</li>
+                    </ol>
+                </li>
+                <li>last list item</li>
+            </ol></center>
+        </td>
+    </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <button type="Resetall" value="Resetall">Reset all</button>
+    <input type="Submit" value="Submit" />
+</body>
